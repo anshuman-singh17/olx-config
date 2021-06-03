@@ -1,0 +1,13 @@
+spring:
+   datasource:
+      url: jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=ON)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=64.100.226.166)(PORT=1541))(ADDRESS=(PROTOCOL=TCP)(HOST=64.100.226.167)(PORT=1541)))(CONNECT_DATA=(SERVICE_NAME=PDBQA.cisco.com)(SERVER=DEDICATED)))
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      username: CCP_ADMIN
+      password: Re5M2l1J
+   jpa:
+      hibernate.ddl-auto: update
+      properties:
+         hibernate:
+            dialect: org.hibernate.dialect.Oracle10gDialect
+   application:
+    name: login-service
