@@ -10,4 +10,4 @@ spring:
          hibernate:
             dialect: org.hibernate.dialect.Oracle10gDialect
    application:
-    name: login-service
+    name: olx-advertise
